@@ -12,13 +12,12 @@ function draw() {
 }
 
 	else {
-	FileList(230);
+	Fill(230);
 }
 
 
 	stroke(230);
 	strokeWeight(2);
-	noFill();
 	circle(width / 2, height / 2, height / 4);
 
 
