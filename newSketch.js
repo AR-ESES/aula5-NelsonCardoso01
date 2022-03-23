@@ -7,18 +7,27 @@ function setup() {
 }
 
 function draw() {
-	background(0);
-	if(mouseY >= height/2) {
-	noFill();
-}
 
-	else {
-	Fill(230);
-}
+	background(186, 210, 159);
+
+    //FICA AZUL
+	if(mouseY>=height/2 && mouseX<=width/2)  
+    fill(73, 176, 217);
+
+    //FICA VERDE
+    else if(mouseY<height/2 && mouseX<=width/2) 
+    fill(103, 192, 137);
+
+    //FICA AMARELO
+    else if(mouseY<height/2 && mouseX>width/2) 
+    fill(244, 192, 149); 
+
+    //FICA VAZIO
+	else{
+		 noFill();
+	}
 
 	stroke(230);
 	strokeWeight(2);
-	circle(width / 2, height / 2, height / 4);
-
-
+	circle(width / 2, height / 2, height / 5);
 }
