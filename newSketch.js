@@ -8,6 +8,7 @@ function setup() {
 
 function draw() {
 
+	//FUNDO VERDE CLARO
 	background(186, 210, 159);
 
     //FICA AZUL
