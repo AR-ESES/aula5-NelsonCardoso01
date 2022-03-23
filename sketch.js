@@ -15,7 +15,6 @@ function draw() {
 	Fill(230);
 }
 
-
 	stroke(230);
 	strokeWeight(2);
 	circle(width / 2, height / 2, height / 4);
