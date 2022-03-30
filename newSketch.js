@@ -28,6 +28,7 @@ function draw() {
 		 noFill();
 	}
 
+
 	stroke(230);
 	strokeWeight(2);
 	circle(width / 2, height / 2, height / 5);
