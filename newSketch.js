@@ -6,6 +6,8 @@ function setup() {
 
 }
 
+
+
 function draw() {
 
 	//FUNDO VERDE CLARO 
